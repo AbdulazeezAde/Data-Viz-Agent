@@ -17,3 +17,5 @@ sentence-transformers==3.3.1
 chromadb==0.5.23
 langchain-huggingface
 plotly
+xgboost
+lightgbm
