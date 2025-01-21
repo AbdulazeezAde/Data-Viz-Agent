@@ -9,7 +9,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, mean_squared_error
-from xgboost import XGBClassifier, XGBRegressor
+#from xgboost import XGBClassifier, XGBRegressor
 
 
 def model_training_and_evaluation():
@@ -38,8 +38,8 @@ def model_training_and_evaluation():
             "Decision Tree": DecisionTreeClassifier(),
             "Random Forest": RandomForestClassifier(),
             "Support Vector Machine (SVM)": SVC(),
-            "XGBoost Classifier": XGBClassifier(),
-            "XGBoost Regressor": XGBRegressor()
+           # "XGBoost Classifier": XGBClassifier(),
+            #"XGBoost Regressor": XGBRegressor()
 
         }
         selected_models = st.multiselect(
