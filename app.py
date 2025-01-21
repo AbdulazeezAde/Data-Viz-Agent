@@ -10,7 +10,7 @@ import base64
 import json
 from langchain.docstore.document import Document
 from langchain_community.vectorstores import Chroma
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.llms import HuggingFaceHub
 from langchain.chains import RetrievalQA
 from langchain_community.document_loaders import DirectoryLoader
