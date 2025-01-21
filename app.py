@@ -27,7 +27,6 @@ from langchain.schema import Document
 from langchain_core.chat_history import BaseChatMessageHistory
 from langchain.chains import create_history_aware_retriever
 from langchain_huggingface import HuggingFaceEmbeddings
-# from RAG import create_doucment, ask_me, load_models_embedding, load_models_llm, create_database
 from langchain.vectorstores import FAISS
 from data_exploration import *
 from data_cleaning import *
