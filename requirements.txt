@@ -1,5 +1,5 @@
 streamlit==1.18.1
-altair
+altair<5
 faiss-cpu==1.7.4
 pandas==2.2.3
 numpy==1.25.0
